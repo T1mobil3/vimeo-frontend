@@ -1,0 +1,278 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '-g', 'peerflix' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.21
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'peerflix', null ]
+6 verbose cache add name=undefined spec="peerflix" args=["peerflix",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'peerflix',
+7 verbose parsed url   path: 'peerflix',
+7 verbose parsed url   href: 'peerflix' }
+8 silly lockFile 754afa96-peerflix peerflix
+9 verbose lock peerflix /Users/tk/.npm/754afa96-peerflix.lock
+10 silly lockFile 754afa96-peerflix peerflix
+11 silly lockFile 754afa96-peerflix peerflix
+12 verbose addNamed [ 'peerflix', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 5670942f-peerflix peerflix@
+15 verbose lock peerflix@ /Users/tk/.npm/5670942f-peerflix.lock
+16 silly addNameRange { name: 'peerflix', range: '*', hasData: false }
+17 verbose url raw peerflix
+18 verbose url resolving [ 'https://registry.npmjs.org/', './peerflix' ]
+19 verbose url resolved https://registry.npmjs.org/peerflix
+20 info trying registry request attempt 1 at 14:14:41
+21 http GET https://registry.npmjs.org/peerflix
+22 http 200 https://registry.npmjs.org/peerflix
+23 silly registry.get cb [ 200,
+23 silly registry.get   { date: 'Sun, 14 Sep 2014 12:14:42 GMT',
+23 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+23 silly registry.get     etag: '"ALZVWO0XHRRLZXXF3MOLOP8MR"',
+23 silly registry.get     'content-type': 'application/json',
+23 silly registry.get     'cache-control': 'max-age=60',
+23 silly registry.get     'content-length': '89997',
+23 silly registry.get     'accept-ranges': 'bytes',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     age: '4701',
+23 silly registry.get     'x-served-by': 'cache-fra1227-FRA',
+23 silly registry.get     'x-cache': 'HIT',
+23 silly registry.get     'x-cache-hits': '1',
+23 silly registry.get     'x-timer': 'S1410696882.208629,VS0,VE177',
+23 silly registry.get     vary: 'Accept',
+23 silly registry.get     'keep-alive': 'timeout=10, max=50',
+23 silly registry.get     connection: 'Keep-Alive' } ]
+24 silly addNameRange number 2 { name: 'peerflix', range: '*', hasData: true }
+25 silly addNameRange versions [ 'peerflix',
+25 silly addNameRange   [ '0.0.1',
+25 silly addNameRange     '0.0.2',
+25 silly addNameRange     '0.0.3',
+25 silly addNameRange     '0.0.4',
+25 silly addNameRange     '0.0.5',
+25 silly addNameRange     '0.0.6',
+25 silly addNameRange     '0.0.7',
+25 silly addNameRange     '0.0.8',
+25 silly addNameRange     '0.0.9',
+25 silly addNameRange     '0.0.10',
+25 silly addNameRange     '0.0.11',
+25 silly addNameRange     '0.0.12',
+25 silly addNameRange     '0.0.13',
+25 silly addNameRange     '0.0.15',
+25 silly addNameRange     '0.0.16',
+25 silly addNameRange     '0.0.17',
+25 silly addNameRange     '0.0.18',
+25 silly addNameRange     '0.0.19',
+25 silly addNameRange     '0.0.21',
+25 silly addNameRange     '0.0.22',
+25 silly addNameRange     '0.0.23',
+25 silly addNameRange     '0.0.24',
+25 silly addNameRange     '0.0.25',
+25 silly addNameRange     '0.0.26',
+25 silly addNameRange     '0.0.27',
+25 silly addNameRange     '0.0.28',
+25 silly addNameRange     '0.0.29',
+25 silly addNameRange     '0.0.30',
+25 silly addNameRange     '0.0.31',
+25 silly addNameRange     '0.0.32',
+25 silly addNameRange     '0.0.33',
+25 silly addNameRange     '0.0.34',
+25 silly addNameRange     '0.0.35',
+25 silly addNameRange     '0.0.36',
+25 silly addNameRange     '0.0.37',
+25 silly addNameRange     '0.0.38',
+25 silly addNameRange     '0.0.39',
+25 silly addNameRange     '0.1.0',
+25 silly addNameRange     '0.1.1',
+25 silly addNameRange     '0.1.3',
+25 silly addNameRange     '0.1.4',
+25 silly addNameRange     '0.1.5',
+25 silly addNameRange     '0.1.6',
+25 silly addNameRange     '0.2.0',
+25 silly addNameRange     '0.2.1',
+25 silly addNameRange     '0.2.2',
+25 silly addNameRange     '0.2.3',
+25 silly addNameRange     '0.3.0',
+25 silly addNameRange     '0.3.1',
+25 silly addNameRange     '0.4.0',
+25 silly addNameRange     '0.4.2',
+25 silly addNameRange     '0.4.3',
+25 silly addNameRange     '0.5.0',
+25 silly addNameRange     '0.5.1',
+25 silly addNameRange     '0.5.2',
+25 silly addNameRange     '0.5.3',
+25 silly addNameRange     '0.5.4',
+25 silly addNameRange     '0.5.5',
+25 silly addNameRange     '0.6.0',
+25 silly addNameRange     '0.6.1',
+25 silly addNameRange     '0.7.0',
+25 silly addNameRange     '0.8.0',
+25 silly addNameRange     '0.8.1',
+25 silly addNameRange     '0.8.2',
+25 silly addNameRange     '0.8.3',
+25 silly addNameRange     '0.8.4',
+25 silly addNameRange     '0.8.5',
+25 silly addNameRange     '0.8.6',
+25 silly addNameRange     '0.8.7',
+25 silly addNameRange     '0.9.0',
+25 silly addNameRange     '0.9.1',
+25 silly addNameRange     '0.9.2',
+25 silly addNameRange     '0.10.0',
+25 silly addNameRange     '0.10.1',
+25 silly addNameRange     '0.10.2',
+25 silly addNameRange     '0.10.3',
+25 silly addNameRange     '0.10.4',
+25 silly addNameRange     '0.10.6',
+25 silly addNameRange     '0.10.7',
+25 silly addNameRange     '0.10.8',
+25 silly addNameRange     '0.10.9',
+25 silly addNameRange     '0.10.10',
+25 silly addNameRange     '0.11.0',
+25 silly addNameRange     '0.11.1',
+25 silly addNameRange     '0.12.0',
+25 silly addNameRange     '0.13.0',
+25 silly addNameRange     '0.13.2',
+25 silly addNameRange     '0.14.0',
+25 silly addNameRange     '0.15.0',
+25 silly addNameRange     '0.16.0',
+25 silly addNameRange     '0.16.1' ] ]
+26 verbose addNamed [ 'peerflix', '0.16.1' ]
+27 verbose addNamed [ '0.16.1', '0.16.1' ]
+28 silly lockFile 3f759870-peerflix-0-16-1 peerflix@0.16.1
+29 verbose lock peerflix@0.16.1 /Users/tk/.npm/3f759870-peerflix-0-16-1.lock
+30 silly lockFile edce6980-org-peerflix-peerflix-0-16-1-tgz https://registry.npmjs.org/peerflix/-/peerflix-0.16.1.tgz
+31 verbose lock https://registry.npmjs.org/peerflix/-/peerflix-0.16.1.tgz /Users/tk/.npm/edce6980-org-peerflix-peerflix-0-16-1-tgz.lock
+32 verbose addRemoteTarball [ 'https://registry.npmjs.org/peerflix/-/peerflix-0.16.1.tgz',
+32 verbose addRemoteTarball   '02dda5fb930e72c267ed86e3d451f3b2389dfc06' ]
+33 info retry fetch attempt 1 at 14:14:42
+34 verbose fetch to= /tmp/npm-9411-FRATr2yD/1410696882490-0.8891296165529639/tmp.tgz
+35 http GET https://registry.npmjs.org/peerflix/-/peerflix-0.16.1.tgz
+36 http 200 https://registry.npmjs.org/peerflix/-/peerflix-0.16.1.tgz
+37 verbose tar unpack /tmp/npm-9411-FRATr2yD/1410696882490-0.8891296165529639/tmp.tgz
+38 silly lockFile a5346799-82490-0-8891296165529639-package tar:///tmp/npm-9411-FRATr2yD/1410696882490-0.8891296165529639/package
+39 verbose lock tar:///tmp/npm-9411-FRATr2yD/1410696882490-0.8891296165529639/package /Users/tk/.npm/a5346799-82490-0-8891296165529639-package.lock
+40 silly lockFile 96d04f7e-82490-0-8891296165529639-tmp-tgz tar:///tmp/npm-9411-FRATr2yD/1410696882490-0.8891296165529639/tmp.tgz
+41 verbose lock tar:///tmp/npm-9411-FRATr2yD/1410696882490-0.8891296165529639/tmp.tgz /Users/tk/.npm/96d04f7e-82490-0-8891296165529639-tmp-tgz.lock
+42 silly gunzTarPerm modes [ '755', '644' ]
+43 silly gunzTarPerm extractEntry package.json
+44 silly gunzTarPerm extractEntry .npmignore
+45 silly gunzTarPerm extractEntry README.md
+46 silly gunzTarPerm extractEntry LICENSE
+47 silly gunzTarPerm extractEntry app.js
+48 silly gunzTarPerm extractEntry index.js
+49 silly gunzTarPerm extractEntry screenshot.png
+50 silly lockFile a5346799-82490-0-8891296165529639-package tar:///tmp/npm-9411-FRATr2yD/1410696882490-0.8891296165529639/package
+51 silly lockFile a5346799-82490-0-8891296165529639-package tar:///tmp/npm-9411-FRATr2yD/1410696882490-0.8891296165529639/package
+52 silly lockFile 96d04f7e-82490-0-8891296165529639-tmp-tgz tar:///tmp/npm-9411-FRATr2yD/1410696882490-0.8891296165529639/tmp.tgz
+53 silly lockFile 96d04f7e-82490-0-8891296165529639-tmp-tgz tar:///tmp/npm-9411-FRATr2yD/1410696882490-0.8891296165529639/tmp.tgz
+54 verbose tar pack [ '/Users/tk/.npm/peerflix/0.16.1/package.tgz',
+54 verbose tar pack   '/tmp/npm-9411-FRATr2yD/1410696882490-0.8891296165529639/package' ]
+55 verbose tarball /Users/tk/.npm/peerflix/0.16.1/package.tgz
+56 verbose folder /tmp/npm-9411-FRATr2yD/1410696882490-0.8891296165529639/package
+57 silly lockFile a5346799-82490-0-8891296165529639-package tar:///tmp/npm-9411-FRATr2yD/1410696882490-0.8891296165529639/package
+58 verbose lock tar:///tmp/npm-9411-FRATr2yD/1410696882490-0.8891296165529639/package /Users/tk/.npm/a5346799-82490-0-8891296165529639-package.lock
+59 silly lockFile 53d1e71c--npm-peerflix-0-16-1-package-tgz tar:///Users/tk/.npm/peerflix/0.16.1/package.tgz
+60 verbose lock tar:///Users/tk/.npm/peerflix/0.16.1/package.tgz /Users/tk/.npm/53d1e71c--npm-peerflix-0-16-1-package-tgz.lock
+61 silly lockFile a5346799-82490-0-8891296165529639-package tar:///tmp/npm-9411-FRATr2yD/1410696882490-0.8891296165529639/package
+62 silly lockFile a5346799-82490-0-8891296165529639-package tar:///tmp/npm-9411-FRATr2yD/1410696882490-0.8891296165529639/package
+63 silly lockFile 53d1e71c--npm-peerflix-0-16-1-package-tgz tar:///Users/tk/.npm/peerflix/0.16.1/package.tgz
+64 silly lockFile 53d1e71c--npm-peerflix-0-16-1-package-tgz tar:///Users/tk/.npm/peerflix/0.16.1/package.tgz
+65 silly lockFile dd287941-s-tk-npm-peerflix-0-16-1-package /Users/tk/.npm/peerflix/0.16.1/package
+66 verbose lock /Users/tk/.npm/peerflix/0.16.1/package /Users/tk/.npm/dd287941-s-tk-npm-peerflix-0-16-1-package.lock
+67 silly lockFile dd287941-s-tk-npm-peerflix-0-16-1-package /Users/tk/.npm/peerflix/0.16.1/package
+68 silly lockFile dd287941-s-tk-npm-peerflix-0-16-1-package /Users/tk/.npm/peerflix/0.16.1/package
+69 verbose tar unpack /Users/tk/.npm/peerflix/0.16.1/package.tgz
+70 silly lockFile 17c852c0-s-tk-npm-peerflix-0-16-1-package tar:///Users/tk/.npm/peerflix/0.16.1/package
+71 verbose lock tar:///Users/tk/.npm/peerflix/0.16.1/package /Users/tk/.npm/17c852c0-s-tk-npm-peerflix-0-16-1-package.lock
+72 silly lockFile 53d1e71c--npm-peerflix-0-16-1-package-tgz tar:///Users/tk/.npm/peerflix/0.16.1/package.tgz
+73 verbose lock tar:///Users/tk/.npm/peerflix/0.16.1/package.tgz /Users/tk/.npm/53d1e71c--npm-peerflix-0-16-1-package-tgz.lock
+74 silly gunzTarPerm modes [ '755', '644' ]
+75 silly gunzTarPerm extractEntry package.json
+76 silly gunzTarPerm extractEntry .npmignore
+77 silly gunzTarPerm extractEntry README.md
+78 silly gunzTarPerm extractEntry LICENSE
+79 silly gunzTarPerm extractEntry app.js
+80 silly gunzTarPerm extractEntry index.js
+81 silly gunzTarPerm extractEntry screenshot.png
+82 silly lockFile 17c852c0-s-tk-npm-peerflix-0-16-1-package tar:///Users/tk/.npm/peerflix/0.16.1/package
+83 silly lockFile 17c852c0-s-tk-npm-peerflix-0-16-1-package tar:///Users/tk/.npm/peerflix/0.16.1/package
+84 silly lockFile 53d1e71c--npm-peerflix-0-16-1-package-tgz tar:///Users/tk/.npm/peerflix/0.16.1/package.tgz
+85 silly lockFile 53d1e71c--npm-peerflix-0-16-1-package-tgz tar:///Users/tk/.npm/peerflix/0.16.1/package.tgz
+86 verbose chmod /Users/tk/.npm/peerflix/0.16.1/package.tgz 644
+87 verbose chown /Users/tk/.npm/peerflix/0.16.1/package.tgz [ 502, 20 ]
+88 silly lockFile edce6980-org-peerflix-peerflix-0-16-1-tgz https://registry.npmjs.org/peerflix/-/peerflix-0.16.1.tgz
+89 silly lockFile edce6980-org-peerflix-peerflix-0-16-1-tgz https://registry.npmjs.org/peerflix/-/peerflix-0.16.1.tgz
+90 silly lockFile 3f759870-peerflix-0-16-1 peerflix@0.16.1
+91 silly lockFile 3f759870-peerflix-0-16-1 peerflix@0.16.1
+92 silly lockFile 5670942f-peerflix peerflix@
+93 silly lockFile 5670942f-peerflix peerflix@
+94 silly resolved [ { name: 'peerflix',
+94 silly resolved     version: '0.16.1',
+94 silly resolved     license: 'MIT',
+94 silly resolved     repository: { type: 'git', url: 'git://github.com/mafintosh/peerflix.git' },
+94 silly resolved     bin: { peerflix: './app.js' },
+94 silly resolved     dependencies:
+94 silly resolved      { 'airplay-js': '^0.2.0',
+94 silly resolved        clivas: '^0.1.4',
+94 silly resolved        mime: '^1.2.11',
+94 silly resolved        'network-address': '0.0.4',
+94 silly resolved        numeral: '^1.5.3',
+94 silly resolved        optimist: '^0.6.1',
+94 silly resolved        pump: '^0.3.1',
+94 silly resolved        'range-parser': '^1.0.0',
+94 silly resolved        rc: '^0.4.0',
+94 silly resolved        'read-torrent': '^0.2.0',
+94 silly resolved        'torrent-stream': '^0.15.1',
+94 silly resolved        'windows-no-runnable': '~0.0.6' },
+94 silly resolved     readme: '# peerflix\n\nStreaming torrent client for Node.js\n\n\tnpm install -g peerflix\n\n## Usage\n\nTo try out peerflix start it with a magnet link or torrent file\n\n\tpeerflix "magnet:?xt=urn:btih:ef330b39f4801d25b4245212e75a38634bfc856e" --vlc\n\nRemember to put `"` around your magnet link since they usually contain `&`.\n\n`peerflix` will print a terminal interface. this first line contains an address to a http server.\nUsing `--vlc` will open the file in vlc when it\'s ready to stream.\n\n![peerflix](https://raw.github.com/mafintosh/peerflix/master/screenshot.png)\n\nSimply open this address in vlc or similar to start viewing the file. If the torrent contains multiple files `peerflix` will choose the biggest one.\n\nTo get a full list of available options run\n\n\tpeerflix --help\n\n## Programmatic usage\n\nIf you want to build your own app using streaming bittorent in Node you should checkout [torrent-stream](https://github.com/mafintosh/torrent-stream)\n\n## Chromebook users\n\nChromebooks are set to refuse all incoming connections by default - to change this:  \n\n\n\tsudo iptables -P INPUT ACCEPT\n\n## License\n\nMIT\n',
+94 silly resolved     readmeFilename: 'README.md',
+94 silly resolved     description: 'Streaming torrent client for Node.js',
+94 silly resolved     bugs: { url: 'https://github.com/mafintosh/peerflix/issues' },
+94 silly resolved     _id: 'peerflix@0.16.1',
+94 silly resolved     dist: { shasum: '0c76fac03d4600f5e0ce1605322b1359f278a0d7' },
+94 silly resolved     _from: 'peerflix@',
+94 silly resolved     _resolved: 'https://registry.npmjs.org/peerflix/-/peerflix-0.16.1.tgz' } ]
+95 info install peerflix@0.16.1 into /usr/local/lib
+96 info installOne peerflix@0.16.1
+97 info /usr/local/lib/node_modules/peerflix unbuild
+98 verbose tar unpack /Users/tk/.npm/peerflix/0.16.1/package.tgz
+99 silly lockFile 3a9bfa5e--local-lib-node-modules-peerflix tar:///usr/local/lib/node_modules/peerflix
+100 verbose lock tar:///usr/local/lib/node_modules/peerflix /Users/tk/.npm/3a9bfa5e--local-lib-node-modules-peerflix.lock
+101 silly lockFile 53d1e71c--npm-peerflix-0-16-1-package-tgz tar:///Users/tk/.npm/peerflix/0.16.1/package.tgz
+102 verbose lock tar:///Users/tk/.npm/peerflix/0.16.1/package.tgz /Users/tk/.npm/53d1e71c--npm-peerflix-0-16-1-package-tgz.lock
+103 silly gunzTarPerm modes [ '755', '644' ]
+104 error Error: EACCES, mkdir '/usr/local/lib/node_modules/peerflix'
+104 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/peerflix']
+104 error   errno: 3,
+104 error   code: 'EACCES',
+104 error   path: '/usr/local/lib/node_modules/peerflix',
+104 error   fstream_type: 'Directory',
+104 error   fstream_path: '/usr/local/lib/node_modules/peerflix',
+104 error   fstream_class: 'DirWriter',
+104 error   fstream_stack:
+104 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+104 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53',
+104 error      'Object.oncomplete (fs.js:107:15)' ] }
+105 error Please try running this command again as root/Administrator.
+106 error System Darwin 13.2.0
+107 error command "node" "/usr/local/bin/npm" "install" "-g" "peerflix"
+108 error cwd /Users/tk/Sites/daanang
+109 error node -v v0.10.21
+110 error npm -v 1.3.11
+111 error path /usr/local/lib/node_modules/peerflix
+112 error fstream_path /usr/local/lib/node_modules/peerflix
+113 error fstream_type Directory
+114 error fstream_class DirWriter
+115 error code EACCES
+116 error errno 3
+117 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/peerflix'
+118 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+118 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:37:53
+118 error fstream_stack Object.oncomplete (fs.js:107:15)
+119 verbose exit [ 3, true ]

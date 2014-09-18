@@ -1,0 +1,13 @@
+<div class='row' ng-repeat='channel in channels track by $index' >
+	<h3 id='channel-{{channel.id}}' >
+		{{channel.name}}
+	</h3>
+	<div class='col-sm-6 col-md-4' ng-repeat='video in channel.videos' >
+		<a class='thumbnail' href='{{ video.url }}'>
+			<img class='thumbnail-image' ng-src='{{ video.thumbnail_medium }}' />
+			<div class='thumbnail-overlay'>
+				{{ video.title }}
+			</div>
+		</a>
+	</div>
+</div>

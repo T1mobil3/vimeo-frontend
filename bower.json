@@ -1,0 +1,25 @@
+{
+  "name": "daanang",
+  "version": "0.0.0",
+  "authors": [
+    "Timo Klok <mail@timoklok.nl>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.24",
+    "angular-animate": "~1.2.24",
+    "angular-route": "~1.2.24",
+    "jquery": "~2.1.1",
+    "animate.css": "~3.2.0",
+    "bootstrap": "~3.2.0",
+    "fontawesome": "~4.2.0",
+    "fancybox": "~2.1.5"
+  }
+}
